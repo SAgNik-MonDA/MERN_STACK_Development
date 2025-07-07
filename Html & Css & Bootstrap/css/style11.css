@@ -1,0 +1,40 @@
+/* element selectore */
+h2{
+    font-size: 32px;
+
+}
+/* class selectore */
+.heading2{
+    background-color: rgb(16, 119, 85);
+}
+/* id selectore */
+#heading2{
+    background-color: rgb(10, 132, 91);
+}
+/* universal selectore */
+*{
+    background-color: aquamarine;
+}
+/* grouping selectore */
+/* h4,h3{
+    text-align: center;
+} */
+/* descendant selectore */
+.descendantselectore {
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+}
+/* child selectore */
+.childselectore >p{
+    background-color: aqua;
+    text-align: center;
+}
+/*  adjacents sibling selectore */
+ h3+p{
+    color: rgb(46, 12, 215);
+} 
+/* general sibling selectore */
+ /* h3~p{
+    color: rgb(153, 21, 11);
+}  */

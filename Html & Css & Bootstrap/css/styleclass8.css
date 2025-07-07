@@ -1,0 +1,24 @@
+div{
+    width: 500px;
+    height: fit-content;
+    background-color: #ffebcd;
+}
+.box1{
+   width: 500px;
+   height: fit-content;
+   background-color: #ed3d3d; 
+   /*top right bottm left*/
+   /*padding: 40px 100px 50px 60px;*/
+/*1st value top & bottm and 2nd value right & left*/
+   /*padding: 200px 100px*/
+   /*single value 4 side*/
+  /*padding: 200px;*/
+  padding:200px;
+  margin: 200px 100px;
+}
+#box2{
+    text-align: center;
+    width: 900px;
+    height: fit-content;
+    background-color: #7fffd4;
+}

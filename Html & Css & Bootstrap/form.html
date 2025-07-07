@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<link rel="stylesheet" href="css/form.css">
+<body>
+    <h1>Register form</h1>
+    <div class="parent">
+    <form action="">
+        <label for="fullname" class="name">Enter your name </label>
+        <input type="text" name="name" placeholder="enter your name" id="fullname" class="full">
+        <br>
+        <label for="mail" class="name" class="name">Enter your mail  </label>
+        <input type="email" name="mail" placeholder="example@gmail,com" name="mail" id="mail"class="full">
+        <br>
+        <label for="password" class="name">Enter your password  </label>
+        <input type="password" name="psd" placeholder="enter your password" id="password"class="full">
+        <br>
+        <label for="mobial" class="name">Enter your family member  </label>
+        <input type="number" name="number" placeholder="enter your family member" id="mobial" min="0" max="10"class="mem">
+        <br>
+        <label for="" class="name">gender ::::   </label>
+        <label for="#" class="name"> male</label>
+        <input type="radio" name="gender"  id="#" class="full">
+        <label for="@" class="name">female</label>
+        <input type="radio" name="gender"  id="@" class="full">
+        <label for="$" class="name">other</label>
+        <input type="radio" name="gender"  id="$" class="full">
+<br>
+<label for=""  class="name">choose your color :::: </label>
+<input type="color" name="color"  id="">
+<br>
+<label for="" class="name">select your hobbies :::: </label>
+<label for="s" class="name">dancing</label>
+<input type="checkbox" name="hoby"  id="s">
+<label for="q" class="name">singing</label>
+<input type="checkbox" name="hoby"  id="q">
+<label for="a" class="name"> playing</label>
+<input type="checkbox" name="hoby"  id="a">
+<br>
+<select class="state">
+    <option value="select your state" class="full">select your state</option>
+    <!-- <option value="westbengal">westbengal</option> -->
+    <optgroup label="westbengal" >
+        <option value="bankura"class="opt">bankura</option>
+        <option value="nor24"class="opt">north 24 pargana</option>
+        <option value="nadia"class="opt">nadia</option>
+        <option value="nor24"class="opt">south 24 pargana</option>
+    </optgroup>
+    <option value="mumbai"class="opt">mumbai</option>
+    <option value="Bihar"class="opt">Bihar</option>
+    <option value="Delhi"class="opt">Delhi</option>
+</select>
+<br>
+<input type="range" class="full">
+<br>
+<input type="datetime-local" class="full">
+<br>
+<br>
+
+<input type="month" name="month" class="full">
+<br>
+<br>
+
+<input type="file" class="full">
+<br>
+<textarea name="message" cols="50" rows="4" placeholder="send your feedback" class="feed"></textarea>
+
+<br>
+<input type="reset" class="reset">
+<br>
+<input type="submit" class="submit">
+    </form>
+</div>
+</body>
+</html>

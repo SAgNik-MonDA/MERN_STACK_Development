@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner{
+            background-image: url(image/pic.jpeg);
+            padding: 50px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 480px;
+            position: relative;
+            z-index: 1;
+            align-items: center;
+        }   
+
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0,0.5);
+        }
+        .banner h1{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 45px;
+            position: relative;
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* justify-content: center;
+            align-items: center; */
+            z-index: 1;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>overlAY</h1>
+    <div class="banner">
+        <div class="overlay"></div>
+    <h1>welcome to our website</h1>
+    </div>
+</body>
+</html>

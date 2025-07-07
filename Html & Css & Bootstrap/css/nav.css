@@ -1,0 +1,5 @@
+.navbar ul li{
+    list-style: none;
+    float: right;
+    padding: 0 10px;
+}
