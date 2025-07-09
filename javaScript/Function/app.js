@@ -112,3 +112,51 @@ for(let i=0;i<=5;i++){
     inner();
   }
   outer();
+
+//   High order function
+function multi(func,n){
+    for(let i=1;i<=n;i++){
+        func();
+    }
+}
+let greet= function(){
+    console.log("hellow!!");
+}
+multi(greet,4);
+
+// High order function (returns a function)
+function oddOrEven(request){
+    if(request=="odd"){
+        let odd=function (n){
+        console.log(!(n%2==0));
+}
+    return odd;
+    }
+else if(request=="even"){
+let even = function(n){
+    console.log(n%2==0);
+}
+return even ;
+}
+else{
+    console.log("Wrong request");
+}
+}
+let request="odd";
+let func=oddOrEven(request);
+func(2);
+
+
+// Methods
+const cal={
+    add:function(a,b){
+        return a+b;
+    },
+    sub:function(a,b){
+        return a-b;
+    },
+    mul:function(a,b){
+        return a*b;
+    },
+};
+console.log (cal.add(3,5));
