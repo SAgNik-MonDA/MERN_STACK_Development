@@ -139,8 +139,15 @@
 
 // Default parameters 
 
-function sum(a,b=2){
-    return a+b;
-};
-console.log(sum(2));
-console.log(sum(2,5));
+// function sum(a,b=2){
+//     return a+b;
+// };
+// console.log(sum(2));
+// console.log(sum(2,5));
+
+
+// Spread
+
+let arr=[5,8,2,9,4,2];
+console.log(Math.min(...arr));
+console.log(..."sagnik");
