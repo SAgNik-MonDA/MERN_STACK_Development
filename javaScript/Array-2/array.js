@@ -188,6 +188,20 @@
 
 // distructuring 
 
-let names = ["tony","bruce","peter","steve"];
-let [winner,runnerup,...others]=names;
-console.log(winner,runnerup,others);
+// let names = ["tony","bruce","peter","steve"];
+// let [winner,runnerup,...others]=names;
+// console.log(winner,runnerup,others);
+
+
+// distructuring using objects
+
+const student = {
+    name : "sagnik",
+    age : 14,
+    class:9,
+    username:"sagnik@",
+    password:"abcd",
+    place:"kolkata",
+};
+let {username:user,password:pass,place:add="delhi"}=student;
+console.log(user,"\n",pass,"\n",add);
