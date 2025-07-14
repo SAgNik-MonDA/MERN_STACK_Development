@@ -102,13 +102,35 @@
 
 // maxmimum in array using reduce method
 
-let arr=[1,4,8,6,10,45,49];
-let max=arr.reduce((max,el)=>{
-    if(max<el){
-        return el;
+// let arr=[1,4,8,6,10,45,49];
+// let max=arr.reduce((max,el)=>{
+//     if(max<el){
+//         return el;
+//     }
+//     else{
+//         return max;
+//     }
+// });
+// console.log(max);
+
+
+
+// Practice Qs ----
+
+// check if all numbers in our array are multiples of 10 or not.
+// let arr=[40,10,20,30];
+// let ans=arr.every((el)=>el%10==0);
+// console.log(ans);
+
+
+//create a function to find the min number in an array
+let arr=[50,40,11,20,80];
+let ans =arr.reduce((min,el)=>{
+    if(min<el){
+        return min;
     }
     else{
-        return max;
+        return el;
     }
 });
-console.log(max);
+console.log(ans);
