@@ -124,13 +124,23 @@
 
 
 //create a function to find the min number in an array
-let arr=[50,40,11,20,80];
-let ans =arr.reduce((min,el)=>{
-    if(min<el){
-        return min;
-    }
-    else{
-        return el;
-    }
-});
-console.log(ans);
+// let arr=[50,40,11,20,80];
+// let ans =arr.reduce((min,el)=>{
+//     if(min<el){
+//         return min;
+//     }
+//     else{
+//         return el;
+//     }
+// });
+// console.log(ans);
+
+
+
+// Default parameters 
+
+function sum(a,b=2){
+    return a+b;
+};
+console.log(sum(2));
+console.log(sum(2,5));
