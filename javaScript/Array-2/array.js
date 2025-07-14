@@ -82,9 +82,18 @@
 // });
 // console.log(even);
 
+
 // Every
-let arr=[2,4,6];
-let even=arr.every((el)=> (
-    el%2 == 0
-));
-console.log(even);
+
+// let arr=[2,4,6];
+// let even=arr.every((el)=> (
+//     el%2 == 0
+// ));
+// console.log(even);
+
+
+// Reduce
+
+let nums=[1,2,3,4];
+let final=nums.reduce((res,el)=>res+el);
+console.log(final);
