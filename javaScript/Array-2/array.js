@@ -169,9 +169,17 @@
 
 // Spread with object literals
 
-const data={
-    email: "sfs@jfvdv",
-    password: "dedgedgv",
+// const data={
+//     email: "sfs@jfvdv",
+//     password: "dedgedgv",
+// };
+// let datacopy={...data,id: 123};
+// console.log(datacopy)
+
+
+// Rest
+
+function sum(...args){
+    return args.reduce((sum,el)=>sum+el)
 };
-let datacopy={...data,id: 123};
-console.log(datacopy);
+console.log(sum(5,5,5));
