@@ -94,6 +94,21 @@
 
 // Reduce
 
-let nums=[1,2,3,4];
-let final=nums.reduce((res,el)=>res+el);
-console.log(final);
+// let nums=[1,2,3,4];
+// let final=nums.reduce((res,el)=>res+el);
+// console.log(final);
+
+
+
+// maxmimum in array using reduce method
+
+let arr=[1,4,8,6,10,45,49];
+let max=arr.reduce((max,el)=>{
+    if(max<el){
+        return el;
+    }
+    else{
+        return max;
+    }
+});
+console.log(max);
