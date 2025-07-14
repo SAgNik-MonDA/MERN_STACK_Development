@@ -168,3 +168,10 @@
 
 
 // Spread with object literals
+
+const data={
+    email: "sfs@jfvdv",
+    password: "dedgedgv",
+};
+let datacopy={...data,id: 123};
+console.log(datacopy);
