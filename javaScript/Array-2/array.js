@@ -76,8 +76,15 @@
 
 // filter
 
-let arr=[5,8,6,2,3,9,7,4,11,10,21];
-let even=arr.filter((el)=>{
-    return el%2==0;
-});
+// let arr=[5,8,6,2,3,9,7,4,11,10,21];
+// let even=arr.filter((el)=>{
+//     return el%2==0;
+// });
+// console.log(even);
+
+// Every
+let arr=[2,4,6];
+let even=arr.every((el)=> (
+    el%2 == 0
+));
 console.log(even);
