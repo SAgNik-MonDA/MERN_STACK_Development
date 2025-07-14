@@ -179,7 +179,15 @@
 
 // Rest
 
-function sum(...args){
-    return args.reduce((sum,el)=>sum+el)
-};
-console.log(sum(5,5,5));
+// function sum(...args){
+//     return args.reduce((sum,el)=>sum+el)
+// };
+// console.log(sum(5,5,5));
+
+
+
+// distructuring 
+
+let names = ["tony","bruce","peter","steve"];
+let [winner,runnerup,...others]=names;
+console.log(winner,runnerup,others);
