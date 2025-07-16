@@ -46,6 +46,15 @@
 
 // Manipulating Style
 
-let heading=document.querySelector("h1");
-console.log(heading.style);
-heading.style.color="red";
+// let heading=document.querySelector("h1");
+// console.log(heading.style);
+// heading.style.color="red";
+
+
+
+//using class list
+
+let img = document.querySelector("img");
+// console.dir(img.classList)
+img.classList.add("abc");
+console.dir(img.classList)
