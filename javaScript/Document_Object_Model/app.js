@@ -25,11 +25,21 @@
 
 // select multiple tag
 
-console.dir(document.querySelectorAll("div a"));
+// console.dir(document.querySelectorAll("div a"));
+
+
 
 // using properties & method
 
-let para=document.querySelector("p");
-console.dir(para.innerText);
-console.dir(para.textContent);
-console.dir(para.innerHTML);
+// let para=document.querySelector("p");
+// console.dir(para.innerText);
+// console.dir(para.textContent);
+// console.dir(para.innerHTML);
+
+
+
+// Manipulating Attributes
+
+let img=document.querySelector("img");
+img.getAttribute("id");
+img.setAttribute("id","spider");
