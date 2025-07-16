@@ -27,3 +27,9 @@
 
 console.dir(document.querySelectorAll("div a"));
 
+// using properties & method
+
+let para=document.querySelector("p");
+console.dir(para.innerText);
+console.dir(para.textContent);
+console.dir(para.innerHTML);
