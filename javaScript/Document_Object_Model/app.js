@@ -12,6 +12,17 @@
 
 // // selecting elemnts by tag name
 
-let tag=document.getElementsByTagName("p");
-console.dir(tag);
+// let tag=document.getElementsByTagName("p");
+// console.dir(tag);
+
+// Query selectors
+
+// console.dir(document.querySelector("h1"));
+// console.dir(document.querySelector("#description"));
+// console.dir(document.querySelector(".oldImg"));
+
+
+// select multiple tag
+
+console.dir(document.querySelectorAll("div a"));
 
