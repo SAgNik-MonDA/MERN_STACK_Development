@@ -40,6 +40,12 @@
 
 // Manipulating Attributes
 
-let img=document.querySelector("img");
-img.getAttribute("id");
-img.setAttribute("id","spider");
+// let img=document.querySelector("img");
+// img.getAttribute("id");
+// img.setAttribute("id","spider");
+
+// Manipulating Style
+
+let heading=document.querySelector("h1");
+console.log(heading.style);
+heading.style.color="red";
