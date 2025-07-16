@@ -54,7 +54,43 @@
 
 //using class list
 
-let img = document.querySelector("img");
+// let img = document.querySelector("img");
+ // console.dir(img.classList)
+// img.classList.add("abc");
 // console.dir(img.classList)
-img.classList.add("abc");
-console.dir(img.classList)
+
+
+
+
+// Navigation
+
+// let h4=document.querySelector("h4");
+// console.log(h4.parentElement);
+
+// let box=document.querySelector(".box");
+// console.log(box.children);
+// console.log(box.childElementCount);
+
+
+// Adding element
+
+let newp=document.createElement("p");
+newp.innerText="hii i am a new p";
+let body=document.querySelector("body");
+body.appendChild(newp);
+
+// newp.append(" this is new text");
+
+body.prepend(" this is new text");
+
+
+let btn=document.createElement("button");
+btn.innerHTML="new btn !!!!!";
+let p=document.querySelector("p");
+p.insertAdjacentElement("beforebegin",btn)
+
+
+// removing elements
+
+let body1 = document.querySelector("body");
+body1.remove(btn);
