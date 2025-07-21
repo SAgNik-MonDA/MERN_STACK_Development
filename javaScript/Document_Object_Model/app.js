@@ -46,9 +46,9 @@ img.setAttribute("id","spider");
 
 // Manipulating Style
 
-// let heading=document.querySelector("h1");
-// console.log(heading.style);
-// heading.style.color="red";
+let heading=document.querySelector("h1");
+console.log(heading.style);
+heading.style.color="red";
 
 
 
