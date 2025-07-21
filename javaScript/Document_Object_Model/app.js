@@ -64,12 +64,12 @@ console.dir(img.classList);
 
 // Navigation
 
-// let h4=document.querySelector("h4");
-// console.log(h4.parentElement);
+let h4=document.querySelector("h4");
+console.log(h4.parentElement);
 
-// let box=document.querySelector(".box");
-// console.log(box.children);
-// console.log(box.childElementCount);
+let box=document.querySelector(".box");
+console.log(box.children);
+console.log(box.childElementCount);
 
 
 // Adding element
