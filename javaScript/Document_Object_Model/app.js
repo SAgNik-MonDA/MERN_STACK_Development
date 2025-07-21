@@ -40,9 +40,9 @@ console.dir(para.innerHTML);
 
 // Manipulating Attributes
 
-// let img=document.querySelector("img");
-// img.getAttribute("id");
-// img.setAttribute("id","spider");
+let img=document.querySelector("img");
+img.getAttribute("id");
+img.setAttribute("id","spider");
 
 // Manipulating Style
 
