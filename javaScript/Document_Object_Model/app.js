@@ -1,19 +1,19 @@
 // selecting elemnts by id
 
-// let obj=document.getElementById("description");
-// console.dir(obj);
+let obj=document.getElementById("description");
+console.dir(obj);
 
 // selecting elemnts by class name
 
-// let img=document.getElementsByClassName("oldImg");
-// for(let i=0;i<img.length;i++){
-//     console.dir(img[i]);
-// }
+let img=document.getElementsByClassName("oldImg");
+for(let i=0;i<img.length;i++){
+    console.dir(img[i]);
+}
 
 // // selecting elemnts by tag name
 
-// let tag=document.getElementsByTagName("p");
-// console.dir(tag);
+let tag=document.getElementsByTagName("p");
+console.dir(tag);
 
 // Query selectors
 
