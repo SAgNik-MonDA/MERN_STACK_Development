@@ -25,7 +25,7 @@ console.dir(document.querySelector(".oldImg"));
 
 // select multiple tag
 
-// console.dir(document.querySelectorAll("div a"));
+console.dir(document.querySelectorAll("div a"));
 
 
 
