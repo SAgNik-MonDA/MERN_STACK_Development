@@ -79,7 +79,7 @@ newp.innerText="hii i am a new p";
 let body=document.querySelector("body");
 body.appendChild(newp);
 
-// newp.append(" this is new text");
+newp.append(" this is new text");
 
 body.prepend(" this is new text");
 
