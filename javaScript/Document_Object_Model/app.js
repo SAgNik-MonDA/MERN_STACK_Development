@@ -54,10 +54,10 @@ heading.style.color="red";
 
 //using class list
 
-// let img = document.querySelector("img");
- // console.dir(img.classList)
-// img.classList.add("abc");
-// console.dir(img.classList)
+let img = document.querySelector("img");
+ console.dir(img.classList);
+img.classList.add("abc");
+console.dir(img.classList);
 
 
 
