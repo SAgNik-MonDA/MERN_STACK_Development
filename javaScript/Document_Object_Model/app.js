@@ -87,7 +87,7 @@ body.prepend(" this is new text");
 let btn=document.createElement("button");
 btn.innerHTML="new btn !!!!!";
 let p=document.querySelector("p");
-p.insertAdjacentElement("beforebegin",btn)
+p.insertAdjacentElement("beforebegin",btn);
 
 
 // removing elements
