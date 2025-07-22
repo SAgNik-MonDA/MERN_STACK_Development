@@ -25,11 +25,28 @@
 
 // onmouse enter
 
-let butt=document.querySelectorAll("button");
+// let butt=document.querySelectorAll("button");
 
-function hellow(){
-    alert("hiii");
+// function hellow(){
+//     alert("hiii");
+// };
+// for(btns of butt){
+//     btns.onmouseenter=hellow;
+// };
+
+
+// EVENT listener
+
+let btn=document.querySelectorAll("button");
+for(btns of btn){
+    btns.addEventListener("click",sayhellow);
+    btns.addEventListener("click",name);
 };
-for(btns of butt){
-    btns.onmouseenter=hellow;
+function sayhellow(){
+    alert("hellow");
 };
+function name(){
+    alert("sagnik");
+};
+
+
