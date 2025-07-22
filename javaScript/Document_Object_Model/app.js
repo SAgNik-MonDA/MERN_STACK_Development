@@ -46,30 +46,30 @@
 
 // Manipulating Style
 
-// let heading=document.querySelector("h1");
-// console.log(heading.style);
-// heading.style.color="red";
+let heading=document.querySelector("h1");
+console.log(heading.style);
+heading.style.color="red";
 
 
 
 //using class list
 
-// let img = document.querySelector("img");
- // console.dir(img.classList)
-// img.classList.add("abc");
-// console.dir(img.classList)
+let img = document.querySelector("img");
+ console.dir(img.classList);
+img.classList.add("abc");
+console.dir(img.classList);
 
 
 
 
 // Navigation
 
-// let h4=document.querySelector("h4");
-// console.log(h4.parentElement);
+let h4=document.querySelector("h4");
+console.log(h4.parentElement);
 
-// let box=document.querySelector(".box");
-// console.log(box.children);
-// console.log(box.childElementCount);
+let box=document.querySelector(".box");
+console.log(box.children);
+console.log(box.childElementCount);
 
 
 // Adding element
@@ -79,20 +79,18 @@
 // let body=document.querySelector("body");
 // body.appendChild(newp);
 
-// newp.append(" this is new text");
+newp.append(" this is new text");
 
 // body.prepend(" this is new text");
 
 
-// let btn=document.createElement("button");
-// btn.innerHTML="new btn !!!!!";
-// let p=document.querySelector("p");
-// p.insertAdjacentElement("beforebegin",btn)
+let btn=document.createElement("button");
+btn.innerHTML="new btn !!!!!";
+let p=document.querySelector("p");
+p.insertAdjacentElement("beforebegin",btn)
 
 
 // removing elements
 
-// let body1 = document.querySelector("body");
-// body1.remove(btn);
-
-
+let body1 = document.querySelector("body");
+body1.remove(btn);
