@@ -74,23 +74,25 @@
 
 // Adding element
 
-let newp=document.createElement("p");
-newp.innerText="hii i am a new p";
-let body=document.querySelector("body");
-body.appendChild(newp);
+// let newp=document.createElement("p");
+// newp.innerText="hii i am a new p";
+// let body=document.querySelector("body");
+// body.appendChild(newp);
 
 // newp.append(" this is new text");
 
-body.prepend(" this is new text");
+// body.prepend(" this is new text");
 
 
-let btn=document.createElement("button");
-btn.innerHTML="new btn !!!!!";
-let p=document.querySelector("p");
-p.insertAdjacentElement("beforebegin",btn)
+// let btn=document.createElement("button");
+// btn.innerHTML="new btn !!!!!";
+// let p=document.querySelector("p");
+// p.insertAdjacentElement("beforebegin",btn)
 
 
 // removing elements
 
-let body1 = document.querySelector("body");
-body1.remove(btn);
+// let body1 = document.querySelector("body");
+// body1.remove(btn);
+
+
