@@ -68,3 +68,30 @@
 //     alert("mouse inside the box");
 // };
 
+
+
+// This in event listener
+
+// let btns=document.querySelector(".btn");
+// btns.addEventListener("click",function(){
+//     // alert(this.innerText);
+//     this.style.backgroundColor="blue";
+// });
+
+
+// Keyboard Events
+//  let inp=document.querySelector("input");
+
+//  inp.addEventListener("keydown",function(){
+//     alert("key was pressed");
+//  });
+
+// inp.addEventListener("keyup",function(event){
+//     console.log(event);
+
+//     alert("key was relased");
+//  });
+
+
+// Form Events
+
