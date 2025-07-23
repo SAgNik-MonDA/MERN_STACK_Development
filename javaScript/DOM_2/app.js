@@ -95,31 +95,42 @@
 
 // Form Events
 
-let form=document.querySelector("form");
-form.addEventListener("submit",function(event){
-    event.preventDefault();
+// let form=document.querySelector("form");
+// form.addEventListener("submit",function(event){
+//     event.preventDefault();
 //     alert("form submitted");
 
      //  Extracting form data 
 
 // let inp=document.querySelector("input");
 // alert(inp.value);
-});
+// });
 
 
 // more events
 // change event
 
-let user=document.querySelector(".user");
-user.addEventListener("change",function(){
-   console.log("change event");
-   console.log("value change & final value is : " ,this.value);
-});
+// let user=document.querySelector(".user");
+// user.addEventListener("change",function(){
+//    console.log("change event");
+//    console.log("value change & final value is : " ,this.value);
+// });
 
 
 // input event
 
-user.addEventListener("input",function(){
-    console.log("input event");
-   console.log("value change & final value is : " ,this.value);
-});
+// user.addEventListener("input",function(){
+//     console.log("input event");
+//    console.log("value change & final value is : " ,this.value);
+// });
+
+
+
+// project
+
+let inp=document.querySelector("input");
+let p=document.querySelector("p");
+inp.addEventListener("input",function(){
+    console.log(inp.value);
+   p.innerText=inp.value;
+})
