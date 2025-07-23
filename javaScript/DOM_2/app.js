@@ -37,16 +37,34 @@
 
 // EVENT listener
 
-let btn=document.querySelectorAll("button");
-for(btns of btn){
-    btns.addEventListener("click",sayhellow);
-    btns.addEventListener("click",name);
-};
-function sayhellow(){
-    alert("hellow");
-};
-function name(){
-    alert("sagnik");
-};
+// let btn=document.querySelectorAll("button");
+// for(btns of btn){
+//     btns.addEventListener("click",sayhellow);
+//     btns.addEventListener("click",name);
+// };
+// function sayhellow(){
+//     alert("hellow");
+// };
+// function name(){
+//     alert("sagnik");
+// };
 
+
+
+// Event listener for elements
+
+// let p=document.querySelector("p");
+// p.addEventListener("click",click);
+// let box=document.querySelector(".box");
+// box.addEventListener("mouseenter",mouseenter);
+
+
+
+
+// function click(){
+//     alert("para was clicked");
+// };
+// function mouseenter(){
+//     alert("mouse inside the box");
+// };
 
