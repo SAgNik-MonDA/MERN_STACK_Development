@@ -16,14 +16,31 @@ else{
 
 // then & catch
 
+// let request=savetodb("sagnik"); //request=promise object
+// request
+//     .then(()=>{
+//         console.log("promise was resolved");
+//         console.log(request);
+//     })
+//     .catch(()=>{
+//     console.log("promise was rejected");
+//      console.log(request);
+// });
+
+
+// promise chaning
+
 let request=savetodb("sagnik"); //request=promise object
 request
     .then(()=>{
-        console.log("promise was resolved");
-        console.log(request);
-    })
+        console.log("data1 was saved");
+        return savetodb("hellow");
+        })
+      .then(()=>{
+        console.log("data 2 is saved");
+      })
+    
     .catch(()=>{
     console.log("promise was rejected");
-     console.log(request);
+ 
 });
-
