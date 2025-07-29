@@ -38,15 +38,46 @@ h1=document.querySelector("h1");
 //     h1.style.color="blue";
 // },3000);
 
-function changecolor(color,delay,nextcolorchange){
+// function changecolor(color,delay){
+//     setTimeout(()=>{
+//         h1.style.color=color;
+//         if(nextcolorchange)nextcolorchange();
+//     },delay);
+// }
+
+// changecolor("red",1000,()=>{
+//     changecolor("orange",1000,()=>{
+//         changecolor("green",1000);
+//     });
+// });
+
+
+
+// using promise
+
+function changecolor(color,delay){
+    return new Promise((resolve,reject)=>{
     setTimeout(()=>{
         h1.style.color=color;
-        if(nextcolorchange)nextcolorchange();
+        resolve("color changed");
     },delay);
-}
-
-changecolor("red",1000,()=>{
-    changecolor("orange",1000,()=>{
-        changecolor("green",1000);
-    });
 });
+};
+
+changecolor("orange",1000)
+.then(()=>{
+    console.log("orange color was changed");
+    return changecolor("blue",1000)
+})
+.then(()=>{
+    console.log("blue color changed");
+    return changecolor("green",1000)
+})
+.then(()=>{
+    console.log("green color was changed");
+})
+.catch(()=>{
+    console.log("color was not changed");
+})
+
+

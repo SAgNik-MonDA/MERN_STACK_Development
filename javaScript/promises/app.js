@@ -32,15 +32,20 @@ else{
 
 let request=savetodb("sagnik"); //request=promise object
 request
-    .then(()=>{
+    .then((result)=>{
         console.log("data1 was saved");
+        console.log(result);
         return savetodb("hellow");
         })
-      .then(()=>{
+      .then((result)=>{
         console.log("data 2 is saved");
+        console.log(result);
       })
     
-    .catch(()=>{
+    .catch((error)=>{
     console.log("promise was rejected");
+    console.log(error);
  
 });
+
+
