@@ -22,5 +22,13 @@
 // module export (1 directories to another  directories transfer data)
 
 
-const info=require("./Fruits");
-console.log(info);
+// const info=require("./Fruits");
+// console.log(info);
+
+
+
+
+// import
+
+import{sum,PI} from "./math.js"; 
+console.log(sum(1,2));
