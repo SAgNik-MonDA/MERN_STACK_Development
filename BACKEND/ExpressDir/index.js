@@ -45,3 +45,11 @@ app.get("/:username/:id", (req,res)=>{
     let {username,id}=req.params;
     res.send(`welcome to the page of @${username}`);
 });
+
+
+// query strings
+
+app.get("/search",(req,res)=>{
+    console.log(req.query);
+    res.send("no result");
+});
