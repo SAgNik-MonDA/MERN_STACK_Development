@@ -25,17 +25,23 @@ app.listen(port, ()=>{
 
 
 app.get("/", (req,res)=>{
-    res.send("you contacted root path");
+    res.send("hellow i am root path");
 });
 
-app.get("/apple", (req,res)=>{
-    res.send("you contacted apple path");
-});
+// app.get("/apple", (req,res)=>{
+//     res.send("you contacted apple path");
+// });
 
-app.get("/orange", (req,res)=>{
-    res.send("you contacted orange path");
-});
+// app.get("/orange", (req,res)=>{
+//     res.send("you contacted orange path");
+// });
 
-app.get("*", (req,res)=>{
-    res.send("this path does not exist");
+// app.get("*", (req,res)=>{
+//     res.send("this path does not exist");
+// });
+
+
+app.get("/:username/:id", (req,res)=>{
+    let {username,id}=req.params;
+    res.send(`welcome to the page of @${username}`);
 });
