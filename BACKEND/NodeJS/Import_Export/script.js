@@ -5,11 +5,17 @@
 
 
 // let args=process.argv;
+// // console.log(args);
 // for(let i=2;i<args.length;i++){
 //     console.log("hellow & welcome to",args[i]);
 // };
 
+
+
+
 // module export (1 file to another file transfer data)
+
+
 
 // const someValue = require("./math");
 // console.log(someValue);
@@ -22,7 +28,7 @@
 // module export (1 directories to another  directories transfer data)
 
 
-// const info=require("./Fruits");
+// const info=require("../Fruits");
 // console.log(info);
 
 
@@ -30,6 +36,6 @@
 
 // import
 
-import{sum,PI} from "./math.js"; 
-console.log(sum(1,2));
-console.log(PI);
+// import{sum,PI} from "./math.js"; 
+// console.log(sum(1,2));
+// console.log(PI);
