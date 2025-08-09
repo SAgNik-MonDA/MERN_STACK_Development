@@ -7,5 +7,6 @@
   },
   "author": "sagnik mondal",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "type":"module"
 }
