@@ -4,7 +4,7 @@ import "./App.css";
 // named import
 
 import {Title} from "./Title.jsx";
-import MsgBox from "./MsgBox.jsx";
+// import MsgBox from "./MsgBox.jsx";
 import ProductTab from "./ProductTab.jsx";
 
 
@@ -58,8 +58,9 @@ function App() {
   
 
   return (
-    <>
-      <MsgBox userName="sagnik" textColor="yellow" />
+    <>        <h2>Blockbuster Deals | Shop now</h2>
+
+      {/* <MsgBox userName="sagnik" textColor="yellow" /> */}
       <ProductTab/>
   </>
     );
