@@ -4,7 +4,9 @@ import "./App.css";
 // named import
 
 import {Title} from "./Title.jsx";
+import MsgBox from "./MsgBox.jsx";
 import ProductTab from "./ProductTab.jsx";
+
 
 function Des(){
   return <h1>I am the description</h1>;
@@ -57,6 +59,7 @@ function App() {
 
   return (
     <>
+      <MsgBox userName="sagnik" textColor="yellow" />
       <ProductTab/>
   </>
     );
