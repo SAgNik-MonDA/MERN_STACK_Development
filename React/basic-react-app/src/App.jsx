@@ -5,6 +5,8 @@ import "./App.css";
 
 import {Title} from "./Title.jsx";
 // import MsgBox from "./MsgBox.jsx";
+import Button from "./Button.jsx";
+import Form from "./Form.jsx";
 import ProductTab from "./ProductTab.jsx";
 
 
@@ -54,14 +56,29 @@ function Des(){
 
 
 
+// function App() {
+  
+
+//   return (
+//     <>        <h2>Blockbuster Deals | Shop now</h2>
+
+//       {/* <MsgBox userName="sagnik" textColor="yellow" /> */}
+//       <ProductTab/>
+//   </>
+//     );
+
+// }
+
+
+
 function App() {
   
 
   return (
-    <>        <h2>Blockbuster Deals | Shop now</h2>
+    <>       
+    <Button />
 
-      {/* <MsgBox userName="sagnik" textColor="yellow" /> */}
-      <ProductTab/>
+    <Form />
   </>
     );
 
