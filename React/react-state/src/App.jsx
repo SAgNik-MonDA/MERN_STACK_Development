@@ -4,6 +4,8 @@ import LikeButton from './LikeButton.jsx';
 import LudoBoard from './LudoBoard.jsx';
 import TodoList from './TodoList.jsx';
 import Lottery from './Lottery.jsx';
+import TicketNum from './TicketNum.jsx';
+import Ticket from './Ticket.jsx';
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
 
     {/* <TodoList / > */}
 
-    <Lottery />
+    <Ticket ticket={[0,1,3]}/>
+    <Ticket ticket={[5,4,1]}/>
     </>
   );
 }
