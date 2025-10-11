@@ -3,10 +3,10 @@ import {genTicket,sum} from "./helper(Lottery)";
 import Ticket from "./Ticket";
 
 
-export default function Lattery({n=3,winningSum=15}){
+export default function Lattery({n=3,winCondition}){
     let [ticket,setTicket] = useState(genTicket(n));
 
-    let isWinning = sum (ticket) === winningSum;
+    let isWinning = winCondition(ticket);
 
         let buyTicket=()=>{
             setTicket(genTicket(n));
