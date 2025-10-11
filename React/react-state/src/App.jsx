@@ -18,9 +18,10 @@ function App() {
     {/* <LudoBoard/> */}
 
     {/* <TodoList / > */}
+    <Lottery n={3} winningSum={15}/>
 
-    <Ticket ticket={[0,1,3]}/>
-    <Ticket ticket={[5,4,1]}/>
+    {/* <Ticket ticket={[0,1,3]}/>
+    <Ticket ticket={[5,4,1]}/> */}
     </>
   );
 }
