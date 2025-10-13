@@ -3,6 +3,7 @@ export default function Form(){
    let[formData , setFormData] = useState({
     fullName: "",
     userName: "",
+    password: "",
 
    });
 
@@ -26,8 +27,12 @@ export default function Form(){
 
         let handleSubmit = (event)=>{
             event.preventDefault();
+            // console.log(formData);
             setFormData({fullName: "",
-    userName: ""});
+    userName: "",
+    password :"",
+});
+
         };
 
 
@@ -42,7 +47,18 @@ export default function Form(){
         <br />
 
          <label htmlFor="username">Username</label>
-        <input type="text" placeholder="Enter your full name" value={formData.userName}  id="username" onChange={handleInputChange}   name="userName"/>
+        <input type="text" placeholder="Enter your username" value={formData.userName}  id="username" onChange={handleInputChange}   name="userName"/>
+
+
+        <br />
+        <br />
+
+         <label htmlFor="password">Password</label>
+        <input type="password" placeholder="Enter your password" value={formData.password}  id="password" onChange={handleInputChange}   name="password"/>
+
+
+        <br />
+        <br />
       
         <button>Submit</button>
     </form>
