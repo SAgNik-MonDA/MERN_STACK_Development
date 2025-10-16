@@ -31,7 +31,8 @@ const RAIN_URL="https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1?ixl
                 <Typography gutterBottom variant="h5" component="div">
                 {info.city.toUpperCase()} &nbsp;&nbsp;{
                 info.humidity > 80 
-                ? <ThunderstormIcon/> : info.temp >15
+                ? <ThunderstormIcon/> 
+                : info.temp >15
                 ? <SunnyIcon />
                 : <AcUnitIcon/>
                  }
