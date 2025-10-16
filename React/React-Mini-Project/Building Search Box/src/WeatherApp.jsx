@@ -3,13 +3,13 @@ import InfoBox from './InfoBox'
 import { useState } from 'react';
 export default function WeatherApp(){
     const [weatherInfo ,setWeatherInfo]=useState({
-        city:"Delhi",
-        feelsLike: 24.84,
-        temp:25.05,
-        tempMin:25.05,
-        tempMax:25.05,
-        humidity:47,
-        weather:"haze"
+        city:"",
+        feelsLike: "",
+        temp:"",
+        tempMin:"",
+        tempMax:"",
+        humidity:"",
+        weather:""
     });
 
     let updateInfo = (newInfo) =>{

@@ -23,7 +23,8 @@ const RAIN_URL="https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1?ixl
             <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 140 }}
-        image={info.humidity > 80 ? RAIN_URL : info.temp >15 ? HOT_URL : COLD_URL}
+       
+        image={info.humidity > 80 ? RAIN_URL : info.temp >15 ? HOT_URL : COLD_URL }
         title="green iguana"
       />
             <CardContent>
@@ -40,7 +41,7 @@ const RAIN_URL="https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1?ixl
                  <p>Humidity={info.humidity}</p>
                  <p>Min Temp = {info.tempMin}&deg;C</p>
                  <p>Max Temp = {info.tempMax}&deg;C</p>
-                 <p>The weather can be described as <b>{info.weather}</b> and Feels Like = {info.feelsLike}&deg;C</p>
+                 <p>The weather can be described as <b>{info.weather}</b> and Feels Like = <b>{info.feelsLike}</b>&deg;C</p>
                 </Typography>
             </CardContent>
         </Card>
