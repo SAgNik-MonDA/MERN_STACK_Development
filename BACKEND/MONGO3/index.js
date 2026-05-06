@@ -20,15 +20,15 @@ async function main() {
 
 let chat1=new Chat({
     from:"sagnik",
-    to:"sayani",
-    msg:"i love you to...",
+    to:"CPIM",
+    msg:"CPIM jindabad.....",
     created_at: new Date()
 });
 
 chat1.save().then(res=>{
     console.log(res);
 
-})
+});
 
 
 app.get("/" , (req,res) => {
